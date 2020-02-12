@@ -1,0 +1,26 @@
+body{
+	    margin: 0;
+	    padding: 0;
+	    background: linear-gradient(132deg,orange,orange,orange,white,green,green,green);
+	    
+	      background-size: 400% 400%;
+	      
+	      animation: btnchange 15s linear infinite;
+	}
+@keyframes btnchange{
+	      0%{
+	          background-position: 0% 50%;
+	      }
+	      25%{
+	          background-position: 50% 50%;
+	      }
+	      50%{
+	          background-position: 100% 50%;
+	      }
+	      75%{
+	          background-position: 75% 50%;
+	      }
+	      100%{
+	          background-position: 0% 50%;
+	      }
+	}
